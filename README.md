@@ -1,4 +1,4 @@
-Calc-App
+**Calculator-App**
 
 Simple Calculator Front-End Application built using HTML, CSS, and JavaScript.
 
@@ -14,7 +14,7 @@ Technologies Used
 -----------------
 HTML5
 CSS3
-JavaScript
+JavaScript (Vanilla JS)
 
 
 Features
@@ -42,10 +42,12 @@ Open the index.html file directly in your browser.
 Option 2: Python HTTP Server (Recommended)
 
 cd "C:\Users\pothu\OneDrive\Desktop\frontend-projects\Calc-App"
-py -3 -m http.server 8000
+py -3 -m http.server 8080
 
-Open in browser:
-http://localhost:8000
+Open URL:
+http://127.0.0.1:8080
+or
+http://localhost:8080
 
 
 Option 3: Node.js Live Server
@@ -53,6 +55,11 @@ Node.js must be installed
 
 cd "C:\Users\pothu\OneDrive\Desktop\frontend-projects\Calc-App"
 npx live-server
+
+Open URL:
+http://127.0.0.1:8080
+or
+http://localhost:8080
 
 
 Option 4: VS Code Live Server
@@ -94,5 +101,3 @@ Suitable for college and portfolio projects
 License
 -------
 Open-source and free to use
-
-
