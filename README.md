@@ -1,55 +1,98 @@
-# Calc-App
+Calc-App
 
-Simple calculator front-end (HTML/CSS/JS).
+Simple Calculator Front-End Application built using HTML, CSS, and JavaScript.
 
-## Files
 
-- `index.html` — application entry
-- `index.js` — app logic
-- `style.css` — styles
+Project Files
+-------------
+index.html  - Application entry point
+style.css   - Styling for the calculator UI
+index.js    - Calculator logic and functionality
 
-## Prerequisites
 
-- A modern browser
-- (Optional) Node.js for `npx live-server`
-- (Optional) Python 3 for `http.server`
+Technologies Used
+-----------------
+HTML5
+CSS3
+JavaScript (Vanilla JS)
 
-## Run locally
 
-- Open the `index.html` file directly in your browser.
-- Python server (recommended for relative URLs):
-```powershell
+Features
+--------
+Basic arithmetic operations
+Clean and simple user interface
+Responsive layout
+Fast and lightweight
+
+
+Prerequisites
+-------------
+Modern web browser (Chrome, Edge, Firefox)
+Optional: Node.js for live reload
+Optional: Python 3 for local server
+
+
+Run Locally
+-----------
+
+Option 1: Open Directly
+Open the index.html file directly in your browser.
+
+
+Option 2: Python HTTP Server (Recommended)
+
 cd "C:\Users\pothu\OneDrive\Desktop\frontend-projects\Calc-App"
 py -3 -m http.server 8000
-```
-Open http://localhost:8000
 
-- Node (live reload):
-```powershell
+Open in browser:
+http://localhost:8000
+
+
+Option 3: Node.js Live Server
+Node.js must be installed
+
 cd "C:\Users\pothu\OneDrive\Desktop\frontend-projects\Calc-App"
 npx live-server
-```
 
-- VS Code: install the Live Server extension and click **Go Live** on `index.html`.
 
-## Push to GitHub (quick)
+Option 4: VS Code Live Server
+Install the Live Server extension
+Open index.html
+Right-click and select "Open with Live Server"
+OR click "Go Live"
 
-1. Create a repo on GitHub (or use `gh`):
 
-```powershell
-git remote add origin https://github.com/USERNAME/Calc-App.git
+Push to GitHub
+--------------
+
+Step 1: Initialize Git (First Time Only)
+
+git init
+git add .
+git commit -m "Initial commit"
+
+
+Method 1: Using Git
+
+git remote add origin https://github.com/pothulaalekhya/Calculator-App.git
+git branch -M main
 git push -u origin main
-```
 
-Or with the GitHub CLI:
 
-```powershell
-gh repo create USERNAME/Calc-App --public --source=. --remote=origin --push
-```
+Method 2: Using GitHub CLI (Recommended)
 
-Replace `USERNAME` with your GitHub username.
+gh repo create pothulaalekhya/Calculator-App --public --source=. --remote=origin --push
 
-## Notes
 
-- `.gitignore` is included for common files.
-- If you want, I can create the remote and push for you (I can run `gh repo create` if `gh` is installed and authenticated).
+Notes
+-----
+Beginner-friendly project
+Good for practice and learning
+Suitable for college and portfolio projects
+
+
+License
+-------
+Open-source and free to use
+
+
